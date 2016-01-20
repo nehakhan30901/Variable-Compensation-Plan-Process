@@ -1,0 +1,110 @@
+[
+    {
+        "empl_id": "1",
+        "loc_code": "SEA35",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":
+        {"regular": "128",
+        "overtime": "20",
+        "doubletime": "8",
+        "holiday_overtime": "8",
+        "holiday_doubletime": "2",
+        "jury_duty":"0" }
+
+    },
+    {
+        "empl_id": "1",
+        "loc_code": "PHX6",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "130",
+        "overtime": "16.5",
+        "doubletime": "8.33",
+        "holiday_overtime": "0",
+        "holiday_doubletime": "0",
+        "jury_duty":"5"}
+    },
+     {
+        "empl_id": "1",
+        "loc_code": "PHX9",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "130",
+        "overtime": "16",
+        "doubletime": "8",
+        "holiday_overtime": "0",
+        "holiday_doubletime": "0",
+        "jury_duty":"5"}
+    },
+    {
+        "empl_id": "2",
+        "loc_code": "PHX6",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "150",
+        "overtime": "8",
+        "doubletime": "8",
+        "holiday_overtime": "8",
+        "holiday_doubletime": "8",
+        "jury_duty":"0"
+    }
+    },
+        {
+        "empl_id": "7",
+        "loc_code": "CAN29",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "150",
+        "overtime": "8",
+        "doubletime": "8",
+        "holiday_overtime": "8",
+        "holiday_doubletime": "8",
+        "jury_duty":"0"}
+    },
+    {
+        "empl_id": "8",
+        "loc_code": "SEA26",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "120",
+        "overtime": "3",
+        "doubletime": "2",
+        "holiday_overtime": "1",
+        "holiday_doubletime": "1",
+        "jury_duty":"6"}
+    },
+    {
+        "empl_id": "8",
+        "loc_code": "GBR16",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "120",
+        "overtime": "3",
+        "doubletime": "2",
+        "holiday_overtime": "1",
+        "holiday_doubletime": "1",
+        "jury_duty":"6"}
+    },
+
+        {
+        "empl_id": "9",
+        "loc_code": "CAN36",
+        "pay_period_start_date":"01-Nov-2015",
+        "pay_period_end_date":"30-Nov-2015",
+        "worked_hours":{
+        "regular": "120",
+        "overtime": "3",
+        "doubletime": "2",
+        "holiday_overtime": "1",
+        "holiday_doubletime": "1",
+        "jury_duty":"6"}
+    }
+
+]

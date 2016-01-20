@@ -1,0 +1,16 @@
+empl_id,empl_name,business_unit,empl_class,empl_type,jobcode,cost_center,empl_status,hourly_rt,shift_diff,effective_date
+1,"EFC1 Eligible_USFC","USA","F","Hourly","P03232",1210,"Active",15.5,0.5,"30-Nov-2015"
+2,"EFC2 Inelig_EmpType","USA","F","Salaried","P03232",1210,"Active",15.5,0.5,"30-Nov-2015"
+3,"EFC3 Inelig_EmpClass","USA","Q","Hourly","P032032",1210,"Leave",15.5,0.5,"30-Nov-2015"
+4,"EFC4 Inelig_BusinessUnit","IND","F","Hourly","P03232",1210,"Leave",15.5,0.5,"30-Nov-2015"
+5,"EFC5 Inelig_Jobcode","USA","F","Hourly","P01111",1210,"Active",15.5,0.5,"30-Nov-2015"
+6,"EFC6 Inelig_CostCenter","USA","F","Hourly","P03232",1172,"Active",15.5,0.5,"30-Nov-2015"
+7,"EFC7 Eligible_USFC","CAN","R","Hourly","P03233",1200,"Leave",13.5,1.0,"30-Nov-2015"
+
+8,"ECS8 Eligible_USCS","USA","F","Hourly","P04242",1172,"Leave",15.5,0.5,"30-Nov-2015"
+9,"ECS9 Eligible_USCS","CAN","R","Hourly","P04243",1173,"Active",15.5,0.5,"30-Nov-2015"
+10,"ECS10 Inelig_BusinessUnit","GBR","F","Hourly","P04242",1172,"Active",15.5,0.5,"30-Nov-2015"
+11,"ECS11 Inelig_Jobcode","USA","F","Hourly","P03232",1173,"Leave",13.2,0.3,"30-Nov-2015"
+12,"ECS12 Inelig_CostCenter","USA","F","Hourly","P04243",1200,"Active",13.5,0.5,"30-Nov-2015"
+13,"ECS13 Inelig_EmpType","USA","F","Salaried","P04242",1172,"Leave",12.5,0.5,"30-Nov-2015"
+14,"ECS14 Inelig_EmpClass","USA","Q","Hourly","P04343",1173,"Active",12.5,0.5,"30-Nov-2015"

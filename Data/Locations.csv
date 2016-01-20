@@ -1,0 +1,7 @@
+loc_code,description,productivity,doubledown,pay_period_start_date,pay_period_end_date
+"SEA35","Seattle",0.5,0,"01-Nov-2015","30-Nov-2015"
+"PHX6","Phoneix",0.9,0,"01-Nov-2015","30-Nov-2015"
+"SEA26","Bellevue",0.4,0,"01-Nov-2015","30-Nov-2015"
+"CAN29","Toronto",0.5,0.0,"01-Nov-2015","30-Nov-2015"
+"CAN36","Ottawa",0.6,0.3,"01-Nov-2015","30-Nov-2015"
+"GBR16","London",0.8,0.2,"01-Nov-2015","30-Nov-2015"

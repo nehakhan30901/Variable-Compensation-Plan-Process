@@ -1,0 +1,72 @@
+datasource:
+ employee: "/Users/nehakhan/Documents/Global_VCP_Program/Data/EmployeeData.csv"
+ locations: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Locations.csv"
+ feedback: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Feedback"
+ work per site: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Work_Per_Site.json"
+ attendance: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Attendance.csv"
+
+paycode_rate:
+  US FC:
+     regular: 1
+     overtime: 1.5
+     doubletime: 2
+     holiday_overtime: 1.5
+     holiday_doubletime: 2
+  US CS:
+     regular: 1
+     overtime: 1.5
+     doubletime: 2
+     holiday_overtime: 1.5
+     jury_duty: 1
+
+attendance_payout:
+  US FC:
+     -1: 0.00
+     0: 0.04
+     1: 0.02
+     2: 0.01
+  US CS:
+     -1: 0.00
+     0: 0.04
+     1: 0.015
+     2: 0.01
+feedback_payout:
+  US CS:
+     Not Applicable: 0
+     Final Written: 2
+     Achieve: 2
+     Exceeds: 4
+eligibility_criteria:
+   US FC:
+     jobcode:
+       - P03232
+       - P03233
+       - P03234
+     empl_type:
+       - Hourly
+     empl_class:
+      - F
+      - R
+     cost_center: 
+      - '1200'
+      - '1210'
+     business_unit:
+      - USA
+      - CAN
+   US CS:
+     jobcode:
+      - P04242
+      - P04243
+     empl_type:
+      - Hourly
+     empl_class:
+      - F
+      - R
+     cost_center: 
+      - '1172'
+      - '1173'
+      - '1174'
+     business_unit:
+      - USA
+      - CAN
+
