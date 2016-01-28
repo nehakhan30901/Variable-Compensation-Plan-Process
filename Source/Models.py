@@ -1,6 +1,7 @@
 #This module defines all the entities used by the VCP Project
 import PolicyFactory
 import json
+import Input
 
 #DEFINING Employee entity
 
