@@ -42,6 +42,31 @@ class Employee:
 
 				#Sum up for total amount
 			self.vcp_payout=self.vcp_payout+site.vcp_payout
+
+
+	def to_dict(self):
+		"serialize object"
+
+		obj_as_dict=dict()
+
+		obj_as_dict["empl_id"]=self.empl_id
+		obj_as_dict["empl_name"]=self.empl_name
+		obj_as_dict["empl_type"]=self.empl_type
+		obj_as_dict["empl_class"]=self.empl_class
+		obj_as_dict["jobcode"]=self.jobcode
+		obj_as_dict["cost_center"]=self.cost_center
+		obj_as_dict["business_unit"]=self.business_unit
+		obj_as_dict["empl_status"]=self.empl_status
+		obj_as_dict["hourly_rt"]=self.hourly_rt
+		obj_as_dict["shift_diff"]=self.shift_diff
+		obj_as_dict["vcp_policy"]=self.vcp_policy.policy_type
+		obj_as_dict["feedback"]=self.feedback.feedback_type
+		obj_as_dict["attendance_instances"]=self.attendance.absence_instance
+		obj_as_dict["effective_date"]=self.effective_date
+		obj_as_dict["work_per_site"]=[{"location":w.location.loc_code,"productivity":round(float(w.location.productivity),2),"eligible_earnings":w.eligible_earnings,"vcp_percent":w.vcp_percent} for w in self.work_per_site]
+
+		return obj_as_dict
+
 	
 #LOCATIONS ENTITY
 class Location:
@@ -78,6 +103,7 @@ class Attendance:
 	def __init__(self,absence_instance,pay_period):
 		self.absence_instance=absence_instance
 		self.pay_period=pay_period
+
 
 
 

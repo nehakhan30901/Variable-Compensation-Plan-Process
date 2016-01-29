@@ -1,9 +1,9 @@
 datasource:
- employee: "~/Global_VCP_Program/Data/EmployeeData.csv"
- locations: "~/Global_VCP_Program/Data/Locations.csv"
- feedback: "~/Global_VCP_Program//Data/Feedback"
- work per site: "~/Global_VCP_Program/Data/Work_Per_Site.json"
- attendance: "~/Global_VCP_Program/Data/Attendance.csv"
+ employee: "/Users/nehakhan/Documents/Global_VCP_Program/Data/EmployeeData.csv"
+ locations: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Locations.csv"
+ feedback: "/Users/nehakhan/Documents/Global_VCP_Program//Data/Feedback"
+ work per site: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Work_Per_Site.json"
+ attendance: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Attendance.csv"
 
 paycode_rate:
   US FC:

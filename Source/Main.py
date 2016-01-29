@@ -14,8 +14,9 @@ def main():
 	
 	for employee in employee_list:
 		employee.process_employee_vcp()
-		print ("\nEmployee name :"+ employee.empl_name+"\nVCP policy :"+employee.vcp_policy.policy_type+"\nCalculated payout "+str(employee.vcp_payout))
-		print ("--------------------------------------------------")
+		print(Output.serialize(employee))
+		#print ("\nEmployee name :"+ employee.empl_name+"\nVCP policy :"+employee.vcp_policy.policy_type+"\nCalculated payout "+str(employee.vcp_payout))
+		#print ("--------------------------------------------------")
 			 
 
 if __name__=="__main__":

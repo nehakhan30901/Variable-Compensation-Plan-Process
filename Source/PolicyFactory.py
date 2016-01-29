@@ -20,7 +20,7 @@ class US_FC_VCP_Policy:
 	def calc_vcp_percent(self,attendance,feedback,location):
 
 			vcp_percent=float(self.attendance_payout.get(attendance.absence_instance,0))+float(location.productivity)
-			return vcp_percent
+			return round(vcp_percent,2)
 
 
 #Defining US CS policy
@@ -42,7 +42,7 @@ class US_CS_VCP_Policy:
 
 			vcp_percent=(float(self.attendance_payout.get(attendance.absence_instance,0))\
 					+self.feedback_payout.get(feedback.feedback_type,0)+float(location.productivity)+float(location.doubledown))
-			return vcp_percent
+			return round(vcp_percent,2)
 
 
 #FACTORY FUNCTION comprising object creation logic based on policy
