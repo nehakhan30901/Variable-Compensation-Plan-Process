@@ -6,12 +6,14 @@ import yaml
 from datetime import date,timedelta,datetime
 
 def get_current_payperiod():
-	  	today=date.today()
-	  	endinterval=timedelta(days=today.day)
-	  	PayPeriodEndDate=today-endinterval
-	  	startinterval=timedelta(days=PayPeriodEndDate.day-1)
-	  	PayPeriodStartDate=PayPeriodEndDate-startinterval
-	  	return (str(PayPeriodStartDate),str(PayPeriodEndDate))
+	  #	today=date.today()
+	  #	endinterval=timedelta(days=today.day)
+	  #	PayPeriodEndDate=today-endinterval
+	  #	startinterval=timedelta(days=PayPeriodEndDate.day-1)
+	  #	PayPeriodStartDate=PayPeriodEndDate-startinterval
+	  #	return (str(PayPeriodStartDate),str(PayPeriodEndDate))"""
+
+	return ("01-Nov-2015","30-Nov-2015")
 	
 def load_config(config_filename):
 

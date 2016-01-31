@@ -1,3 +1,4 @@
+
 datasource:
  employee: "/Users/nehakhan/Documents/Global_VCP_Program/Data/EmployeeData.csv"
  locations: "/Users/nehakhan/Documents/Global_VCP_Program/Data/Locations.csv"
@@ -69,4 +70,6 @@ eligibility_criteria:
      business_unit:
       - USA
       - CAN
-
+db_setting:
+ client: "mongodb://localhost"
+ db: "dbvcp"

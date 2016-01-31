@@ -63,8 +63,8 @@ class Employee:
 		obj_as_dict["feedback"]=self.feedback.feedback_type
 		obj_as_dict["attendance_instances"]=self.attendance.absence_instance
 		obj_as_dict["effective_date"]=self.effective_date
-		obj_as_dict["work_per_site"]=[{"location":w.location.loc_code,"productivity":round(float(w.location.productivity),2),"eligible_earnings":w.eligible_earnings,"vcp_percent":w.vcp_percent} for w in self.work_per_site]
-
+		obj_as_dict["work_per_site"]=[{"location":w.location.loc_code,"productivity":w.location.productivity,"eligible_earnings":w.eligible_earnings,"vcp_percent":w.vcp_percent} for w in self.work_per_site]
+		obj_as_dict["vcp_payout"]=self.vcp_payout
 		return obj_as_dict
 
 	
